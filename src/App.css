@@ -34,6 +34,7 @@
   height: 45px;
   border: none;
   width: 100%;
+  cursor: pointer;
   
 }
 
@@ -55,6 +56,12 @@ a{
   padding: 20px  0;
   align-items: center;
   margin-top: 30px ;
+}
+
+.center > p{
+  color: #667085;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 

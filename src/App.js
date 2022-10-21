@@ -2,7 +2,7 @@ import twitterImage from "./images/twitter_image.svg"
 import slack from "./images/slack.svg"
 import git from "./images/Social icon.svg"
 import ingressive from "./images/I4G.svg"
-import zuri from "./images/Vector.svg"
+import zuri from "./images/zuri.svg"
 import './App.css';
 import { LinkHTMLAttributes } from "react";
 
