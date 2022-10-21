@@ -1,0 +1,65 @@
+.link-tree{
+  margin: 0;
+  padding: 60px 144px;
+  height: 100vh;
+
+}
+
+.image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#profile_id{
+  width: 88px;
+}
+
+#twitter{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.link-container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#twitter_link, #button_zuri, #books, #book__python, #pitch, #book__design{
+  background-color: #EAECF0;
+  border-radius: 8px;
+  padding: 24px, 32px;
+  height: 45px;
+  border: none;
+  width: 100%;
+  
+}
+
+a{
+  all: unset;
+}
+
+.icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #EAECF0 ;
+  padding: 20px  0;
+  align-items: center;
+  margin-top: 30px ;
+}
+
+
+@media screen and (max-width: 815px) {
+  div.icon-container, div.footer {
+    display: none;
+  }
+}
