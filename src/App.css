@@ -58,7 +58,7 @@ a{
 }
 
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 880px) {
   div.icon-container, div.footer {
     display: none;
   }
