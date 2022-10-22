@@ -11,7 +11,7 @@ function App() {
       <div className='link-tree'>
 
         <div className="image-container">
-          <img src={twitterImage} alt="" id="profile_id" />
+          <img src={twitterImage} alt="" id="profile_img" />
           <h1 id="twitter">Annette Black</h1>
           {/* <h4 id="slack">Annette Black </h4> */}
         </div>
