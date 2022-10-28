@@ -11,36 +11,27 @@ function App() {
       <div className='link-tree'>
 
         <div className="image-container">
-          <img src={twitterImage} alt="" id="profile_img" />
-          <h1 id="twitter">Annette Black</h1>
-          {/* <h4 id="slack">Annette Black </h4> */}
+          <img src={twitterImage} alt="profile" id="profile__img" />
+          <h1 id="twitter">eri_itunu</h1>
+          {/* <h4 id="slack">Eri </h4> */}
         </div>
 
         <div className="link-container">
+
+            <a  id="button_zuri" href="https://training.zuri.team/">Zuri Team</a>
           
-          <button id="twitter_link">
-            <a href="http://books.zuri.team/">Twitter Link</a>
-          </button>
 
-          <button id="button_zuri">
-            <a href="https://training.zuri.team/">Zuri Team</a>
-          </button>
-
-            <a href="http://books.zuri.team/">
-              <button id="books">
-                Zuri Books
-              </button>
+            <a id="books" href="http://books.zuri.team/">
+              Zuri Books
             </a>
           
 
-          <a href="http://books.zuri.team">
-            <button id="book__python">
-              Python Books
-            </button>
+          <a id="book__python" href="http://books.zuri.team">
+            Python Books
           </a>
 
           <button id="pitch">
-            <a href="https://background.zuri.team//">Background Check for Coders</a>
+            <a href="https://background.zuri.team">Background Check for Coders</a>
           </button>
 
           <button id="book__design">
