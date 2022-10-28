@@ -22,9 +22,9 @@ function App() {
           <div className="menu-image">
             <img  className="small" src={share_small} alt="" />
           </div>
-          {/* <div className="menu-image">
+          <div className="menu">
             <img src={large} alt="" />
-          </div> */}
+          </div>
         </div>
 
         <div className="link-container">
@@ -37,7 +37,7 @@ function App() {
             </a>
           
 
-          <a id="book__python" href="http://books.zuri.team">
+          <a id="book__python" href="https://books.zuri.team/python-for-beginners?ref_id=Eri">
             Python Books
           </a>
 
