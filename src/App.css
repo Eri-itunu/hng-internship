@@ -1,7 +1,10 @@
+
+
 .link-tree{
   margin: 0;
-  padding: 60px 144px;
+  padding: 40px 144px 0 144px;
   height: 100vh;
+  
 
 }
 
@@ -10,6 +13,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.menu{
+  display: none;
 }
 
 #profile_id{
@@ -21,25 +28,45 @@
   font-weight: 700;
 }
 
+#slack{
+  display: none;
+}
+
 .link-container{
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-#twitter_link, #button_zuri, #books, #book__python, #pitch, #book__design{
+#twitter_link, #btn__zuri, #books, #book__python, #pitch, #book__design{
   background-color: #EAECF0;
   border-radius: 8px;
   padding: 24px, 32px;
-  height: 45px;
+  height: 40px;
   border: none;
   width: 100%;
   cursor: pointer;
+  text-align: center;
+  
+  
   
 }
 
+.menu-image{
+  position: absolute;
+  left: 30;
+  top: 1;
+  padding-left: 290px;
+  padding-bottom: 120px;
+}
+.menu-image> .share{
+  display: none;
+}
+
 a{
-  all: unset;
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
 }
 
 .icon-container{
@@ -68,5 +95,16 @@ a{
 @media screen and (max-width: 880px) {
   div.icon-container, div.footer {
     display: none;
+  }
+
+  .link-tree{
+    padding: 60px 30px 0 30px;
+  }
+
+  .menu-image{
+    display: none;
+  }
+  .menu{
+    display: block;
   }
 }

@@ -3,22 +3,33 @@ import slack from "./images/slack.svg"
 import git from "./images/Social icon.svg"
 import ingressive from "./images/I4G.svg"
 import zuri from "./images/zuri.svg"
+import large from "./images/share_large.svg"
+import share_small from "./images/share_small.svg"
 import './App.css';
-import { LinkHTMLAttributes } from "react";
+
 
 function App() {
   return (
       <div className='link-tree'>
 
         <div className="image-container">
-          <img src={twitterImage} alt="profile" id="profile__img" />
-          <h1 id="twitter">eri_itunu</h1>
-          {/* <h4 id="slack">Eri </h4> */}
+
+          <div className="image-center">
+            <img src={twitterImage} alt="profile" id="profile__img" />
+            <h1 id="twitter">eri_itunu</h1>
+            <h4 id="slack">Eri </h4> 
+          </div>
+          <div className="menu-image">
+            <img  className="small" src={share_small} alt="" />
+          </div>
+          {/* <div className="menu-image">
+            <img src={large} alt="" />
+          </div> */}
         </div>
 
         <div className="link-container">
 
-            <a  id="button_zuri" href="https://training.zuri.team/">Zuri Team</a>
+            <a  id="btn__zuri" href="https://training.zuri.team/">Zuri Team</a>
           
 
             <a id="books" href="http://books.zuri.team/">
@@ -30,13 +41,13 @@ function App() {
             Python Books
           </a>
 
-          <button id="pitch">
-            <a href="https://background.zuri.team">Background Check for Coders</a>
-          </button>
+          
+            <a id="pitch" href="https://background.zuri.team">Background Check for Coders</a>
+          
 
-          <button id="book__design">
-            <a href="https://books.zuri.team/design-rules/">Design Books</a>
-          </button>
+          
+            <a id="book__design" href="https://books.zuri.team/design-rules/">Design Books</a>
+          
 
           <div className="icon-container">
             <img src={slack} alt="" />
