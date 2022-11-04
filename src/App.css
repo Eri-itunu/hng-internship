@@ -1,5 +1,4 @@
 
-
 .link-tree{
   margin: 0;
   padding: 40px 144px 0 144px;
@@ -38,7 +37,7 @@
   gap: 24px;
 }
 
-#twitter_link, #btn__zuri, #books, #book__python, #pitch, #book__design{
+#twitter_link,#contact, #btn__zuri, #books, #book__python, #pitch, #book__design{
   background-color: #EAECF0;
   border-radius: 8px;
   padding: 24px, 32px;
@@ -93,8 +92,10 @@ a{
 
 
 @media screen and (max-width: 880px) {
-  div.icon-container, div.footer {
-    display: none;
+  div.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .link-tree{
@@ -107,4 +108,35 @@ a{
   .menu{
     display: block;
   }
+}
+
+
+.contact{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form{
+  width: 700px;
+}
+
+.contact-form > h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.contact-form > p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #475467;
+}
+
+.button-block{
+  width: 100%;
+}
+
+.contact-footer{
+  padding: 0 60px;
 }
