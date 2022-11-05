@@ -4,9 +4,12 @@ import useForm from "./useForm"
 export default function Form(){   
 
 
-    
+    const formLogin = () =>{
 
-    const {handleChange,values, errors} = useForm();
+        console.log("Form values" , values )
+    }
+
+    const {handleChange,values, errors, handleSubmit} = useForm(formLogin);
 
     
 
@@ -19,7 +22,7 @@ export default function Form(){
                         <p>Hi there, contact me to ask me about anything you have in mind.</p>
 
                         <div >
-                            <form >
+                            <form  onSubmit={handleSubmit}>
 
                                 <div class="row pt-2 pb-4">
                                     <div class="col">

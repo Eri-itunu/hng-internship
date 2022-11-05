@@ -2,7 +2,7 @@ import  {useState} from "react";
 import {omit } from "lodash"
 
 
-const useForm = () => {
+const useForm = (callback) => {
     
     //Form values
     const [values,setValues] = useState({});
@@ -91,8 +91,16 @@ const useForm = () => {
 
     }
 
+    const handleSubmit = (event) =>{
+        if(event) event.preventDefault(); 
+        
+        if(Object.keys(errors).length=== 0 && Object.key(values).length !==0){
+            callback();
+        } 
+    }
 
-    return{values, errors, handleChange}
+
+    return{values, errors, handleChange, handleSubmit}
 }
 
 export default useForm;
