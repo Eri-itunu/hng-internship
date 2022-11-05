@@ -140,3 +140,7 @@ a{
 .contact-footer{
   padding: 0 60px;
 }
+
+.errors{
+  color: red;
+}

@@ -33,7 +33,7 @@ const useForm = () => {
                 if(value.length <1 ){
                     setErrors ({
                         ...errors,
-                        firstname: 'Enter a Last name'
+                        lastname: 'Enter a Last name'
                     })
                     }else{
                         let newObj = omit(errors, "lastname");
@@ -45,7 +45,7 @@ const useForm = () => {
                 if(value.length < 1){
                     setErrors ({
                         ...errors,
-                        firstname: 'Please enter a message'
+                        message: 'Please enter a message'
                     })
                     }else{
                         let newObj = omit(errors, "message");
